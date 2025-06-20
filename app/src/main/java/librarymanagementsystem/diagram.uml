@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-244.8071019158292" y="-108.1773221576633">librarymanagementsystem.Book</node>
+    <node x="-602.4954459798994" y="277.60226915829156">librarymanagementsystem.Library</node>
+    <node x="-741.3014290201005" y="-117.02594024811555">librarymanagementsystem.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="librarymanagementsystem.Library" target="librarymanagementsystem.User" relationship="TO_MANY">
+      <point x="-14.999734924623226" y="-116.0" />
+      <point x="-508.9951809045226" y="187.79126589981163" />
+      <point x="-644.8011639447237" y="187.79126589981163" />
+      <point x="-14.999734924623226" y="127.0" />
+    </edge>
+    <edge source="librarymanagementsystem.User" target="librarymanagementsystem.Book" relationship="TO_MANY">
+      <point x="111.5" y="105.37799348304017" />
+      <point x="-537.4556964510052" y="115.35205323492463" />
+      <point x="-537.4556964510052" y="9.974059751884454" />
+      <point x="-123.9679648241206" y="-0.0" />
+    </edge>
+    <edge source="librarymanagementsystem.Library" target="librarymanagementsystem.Book" relationship="TO_MANY">
+      <point x="2.6507537677389337E-4" y="-115.99978737437192" />
+      <point x="-493.9951809045226" y="161.8922738693467" />
+      <point x="-120.83919974874368" y="161.8922738693467" />
+      <point x="-6.26570350732436E-5" y="118.15122565954769" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7437080291970803" showDependencies="true" x="-410.3897024183419" y="148.0287766959799" />
+  <SelectedNodes>
+    <node>librarymanagementsystem.Book</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
