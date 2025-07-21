@@ -14,8 +14,8 @@ This LMS allows:
 ### ⚙️ Technologies Used
 
 * **Java & Spring Boot** 
-* **MySQL
-* **RESTful API 
+* MySQL
+* RESTful API 
 * **Gradle** for project management
 
 ### 🚀 Getting Started
